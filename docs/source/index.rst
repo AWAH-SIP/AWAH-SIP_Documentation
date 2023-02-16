@@ -1,7 +1,7 @@
-Welcome to Lumache's documentation!
+AWHA SIP the open boradcast codec
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
+**AWAH SIP codec**  is a SIP codec based on PJSIP
 that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
@@ -18,5 +18,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   installation
+   user manual
