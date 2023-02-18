@@ -1,39 +1,31 @@
-Usage
-=====
+AWAH-SIP_Codec
+==============
 
 .. _AWAH-SIP_Codec:
 
-Installation Linux
-------------------
+The AWAH_SIP_Codec is a command line application that can be run as a deamon. This appication can be conntolled over a websockt.
 
-To use AWAH-SIP, first install it:
+Installation Linux:
+-------------------
+
+The newest compiled verion can be downoaded here: AWAH-SIP_codec_
+
+
+
+.. _AWAH-SIP_codec: https://github.com/AWAH-SIP/AWAH-SIP_Codec/actions
 
 .. code-block:: console
 
-   Clone Repo
-Run git submodules init && git submodule update after cloning this repo to load the AWAH-SIP_Library from it's own Repo!
-
-Installation OS X
------------------
+   dependencies:
+   libopus-dev
 
 
-Installation Windows
---------------------
+Installation OS X:
+------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+Installation Windows:
+---------------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
