@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'AWAH-SIP'
+copyright = '2023'
+author = 'Adi Hilber, Andy Weiss'
 
-release = '0.1'
-version = '0.1.0'
+release = '3.2'
+version = '3.2'
 
 # -- General configuration
 
