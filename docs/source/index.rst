@@ -11,7 +11,7 @@ Accounts can have an attached call recorder and anouncement player to create an 
 Various GPI funcitions are added to the system to support intercom applications.
 
 
-**AWAH_SIP-codec** runs on different plattforms and can be controlled over a websocket. A separate GUI application is provided to control the codec.
+**AWAH_SIP-codec** runs on different plattforms and can be controlled over a websocket. A separate **GUI application** is provided to control the codec.
 This GUI wil be repaced by a web gui in the future.
 
 .. _PJSIP: https://www.pjsip.org/
