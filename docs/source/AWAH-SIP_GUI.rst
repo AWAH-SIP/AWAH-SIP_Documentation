@@ -1,7 +1,6 @@
 AWAH-SIP_GUI
 ==============
 
-.. _AWAH-SIP_GUI:
 
 The AWAH_SIP_GUI is a standalone GUI application to control the AWAH-SIP_Codec
 

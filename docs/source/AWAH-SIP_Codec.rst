@@ -1,7 +1,6 @@
 AWAH-SIP_Codec
 ==============
 
-.. _AWAH-SIP_Codec:
 
 The AWAH_SIP_Codec is a command line application that can be run as a daemon. This appication can be conntolled over a websocket.
 
@@ -17,7 +16,7 @@ The newest compiled version can be downloaded here: AWAH-SIP_Codec-download_.
 
    You ndeed to sign in to GitLab in order to see the and download the files.
 
-   `dependencies: opus`
+`dependencies: opus`
 
 .. code-block:: console
 
@@ -33,7 +32,7 @@ Donwload the newest version here: AWAH-SIP_Codec-download_.
 
    You need to sign in to GitLab in order to see the and download the files.
 
-   `dependencies: opus` can be installed wit brew
+`dependencies: opus` can be installed wit brew
 
 .. code-block:: console
 
