@@ -34,5 +34,5 @@ Contents
    :maxdepth: 2
 
    AWAH-SIP_Codec
-   AWAH-SIP_GUI
+   GUI usage <AWAH-SIP_GUI.rst> 
    

@@ -15,6 +15,18 @@ Donwload the newest version here: AWAH-SIP-GUI-download_.
 
 .. _AWAH-SIP-GUI-download: https://github.com/AWAH-SIP/AWAH-SIP_Desktop-GUI/actions
 
+Starting the GUI
+----------------
+
+.. image:: images/Connect-dialog.png
+  :width: 300
+  :alt: connect dialog
+
+When you start the GUI a connect dialog appears. Enter the IP address of the AWAH-SIP_codec that
+you want to control. If the application is running on the same host 127.0.0.1 can be entered.
+If the connection is successful the Overview screen opens.
+
+
 
 Overview
 --------
@@ -34,7 +46,7 @@ Each Line in the main view represents an account.
 
 **Call state** The state of a call. This is green when a call is connected.
 
-**Make Call** By clicking on the telehone nandset icon you can inititate or hang up a call.
+**Make Call** By clicking on the telehone handset icon you can inititate or hang up a call.
 
 **Info** This opens an info window with call statistics if a call is connected.
 
