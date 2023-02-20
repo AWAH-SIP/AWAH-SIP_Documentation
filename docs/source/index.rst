@@ -34,4 +34,5 @@ Contents
    :maxdepth: 2
 
    AWAH-SIP_Codec
+   AWAH-SIP_GUI
    
