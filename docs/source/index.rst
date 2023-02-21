@@ -37,7 +37,7 @@ Contents
    GUI usage <AWAH-SIP_GUI.rst> 
    GUI Settings <AWAH-SIP_GUI_Settings.rst>
    GUI Account configuration <AWAH-SIP_GUI_Accounts.rst>
-   GUI I/O configuration <AWAH-SIP_GUI_IO.rst>
+   GUI IO configuration <AWAH-SIP_GUI_IO.rst>
    GUI Routing <AWAH-SIP_GUI_Routing.rst>
    GUI Buddies <AWAH-SIP_GUI_Buddies.rst>
    
