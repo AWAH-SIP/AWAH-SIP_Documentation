@@ -5,8 +5,8 @@ AWAH-SIP_Codec
 The AWAH_SIP_Codec is a command line application that can be run as a daemon. The configuration is stored in a separate config file, this file is not editable.
 To configure the codec you need the AWAH-SIP_GUI.
 
-Installation Linux
-------------------
+Installation compiled binary
+----------------------------
 
 The newest compiled version can be downloaded here: AWAH-SIP_Codec-download_.
 
@@ -17,23 +17,19 @@ The newest compiled version can be downloaded here: AWAH-SIP_Codec-download_.
 
    You ndeed to sign in to GitLab in order to see the and download the files.
 
-`dependencies: opus`
-
-.. code-block:: console
-
-   sudo apt-get install libopus-dev
 
 
-Installation OS X
------------------
 
-Donwload the newest version here: AWAH-SIP_Codec-download_.
+Installation from soure
+-----------------------
+
 
 .. note::
 
-   You need to sign in to GitLab in order to see the and download the files.
+   If you compile from source depening on the os some dependencies are required
 
-`dependencies: opus` can be installed with brew_.
+
+`dependencies: opus` can be installed with brew_ on osx.
 
 .. _brew: https://brew.sh/
 
@@ -41,13 +37,14 @@ Donwload the newest version here: AWAH-SIP_Codec-download_.
 
    brew install opus 
 
-Installation Windows
---------------------
 
-Donwload the newest version here: AWAH-SIP_Codec-download_.
+`dependencies: opus` can be installed on linux with the package manager.
 
-.. note::
+.. _brew: https://brew.sh/
 
-   You ndeed to sign in to GitLab in order to see the and download the files.
+.. code-block:: console
+
+   sudo apt-get install libopus-dev 
+
 
 
