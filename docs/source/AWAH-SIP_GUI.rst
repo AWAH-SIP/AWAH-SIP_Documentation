@@ -59,15 +59,17 @@ A click on the **telephone handset** icon opens the *make call* dialog:
   :width: 600
   :alt: GUI telepnoe iccon:
 
-**Codec:** Select a codec from the dropdown. Supported codecs are: ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
+**Codec:** Select a codec from the dropdown. Supported codecs are: 
+            ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
 
 **Codec settings:** Opens the settings dialog with the specific parameters for the selected codec.
 
 **Number:** Enter the SIP number you like to call.
 
-**Call history:** the last 10 calls are displayed here, by clicking on an entry the codecs and its settings are selected.
+**Call history:** the last 10 calls are displayed here, by clicking on an entry in the table the number, the codec and its settings are selected.
 
-**Buddies:** quickdial entrys, this is like an interactive phonebook
+**Buddies:** quickdial entrys, this is like an interactive phonebook. By clicking on an entry in the table the number, the codec and its settings are selected. 
+See section :ref:`Buddies` how to add and edit *buddies*
 
 
 
