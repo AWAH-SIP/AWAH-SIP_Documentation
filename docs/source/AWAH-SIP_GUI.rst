@@ -67,5 +67,5 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 
 **Call history** the last 10 calls are distplayed here, by clicking on an entry the codecs and its settings are selected.
 
-**Buddies** the configured buddies from :term:`buddies` menu can be used to quick dial your favorite numbers.
+**Buddies** the configured buddies from :doc:buddies `<AWAH-SIP_GUI_Buddies.rst>` menu can be used to quick dial your favorite numbers.
 
