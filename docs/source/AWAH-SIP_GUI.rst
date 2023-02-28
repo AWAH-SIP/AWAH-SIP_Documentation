@@ -35,20 +35,20 @@ Overview
   :width: 600
   :alt: GUI overwiew
 
-Each Line in the main view represents an account.
+Each line in the main view represents an account.
 
 
-**Name** The custom Name of a SIP account.
+**Name:** The custom Name of a SIP account.
 
-**User** The SIP number or the user of an account.
+**User:** The SIP number or the user of an account.
 
-**SIP state** This indicates the state of an account. If this field is green the acocunt is properly registered on the SIP server.
+**SIP state:** This indicates the state of an account. If this field is green the acocunt is properly registered on the SIP server.
 
-**Call state** The state of a call. This is green when a call is connected.
+**Call state:** The state of a call. This is green when a call is connected.
 
-**Make Call** By clicking on the telephone handset icon you can inititate or hang up a call.
+**Make Call:** By clicking on the telephone handset icon you can inititate or hang up a call.
 
-**Info** This opens an info window with call statistics if a call is connected.
+**Info:** This opens an info window with call statistics if a call is connected.
 
 Make a call
 -----------
@@ -59,15 +59,15 @@ A click on the **telephone handset** icon opens the *make call* dialog:
   :width: 600
   :alt: GUI telepnoe iccon:
 
-**Codec** Select a codec from the dropdown. Supported codecs are: ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
+**Codec:** Select a codec from the dropdown. Supported codecs are: ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
 
-**Codec settings** Opens the settings dialog with the specific parameters for the selected codec.
+**Codec settings:** Opens the settings dialog with the specific parameters for the selected codec.
 
-**Number** Enter the SIP number you like to call.
+**Number:** Enter the SIP number you like to call.
 
-**Call history** the last 10 calls are displayed here, by clicking on an entry the codecs and its settings are selected.
+**Call history:** the last 10 calls are displayed here, by clicking on an entry the codecs and its settings are selected.
 
-**Buddies** quickdial entrys
+**Buddies:** quickdial entrys, this is like an interactive phonebook
 
 
 
