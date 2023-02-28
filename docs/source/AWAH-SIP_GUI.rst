@@ -65,7 +65,22 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 
 **Number** Enter the SIP number you like to call.
 
-**Call history** the last 10 calls are distplayed here, by clicking on an entry the codecs and its settings are selected.
+**Call history** the last 10 calls are displayed here, by clicking on an entry the codecs and its settings are selected.
 
-**Buddies** the configured buddies from :doc:`buddies<AWAH-SIP_GUI_Buddies.rst>` menu can be used to quick dial your favorite numbers.
+**Buddies** quickdial entrys
+
+
+
+Call info
+---------
+
+A click on the **call info** icon opens the *call info* window. Various statistics for a active call are shown.
+
+.. image:: images/Call_info.png
+  :width: 600
+  :alt: GUI telepnoe iccon:
+
+
+Auto connect
+------------
 
