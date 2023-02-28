@@ -46,10 +46,25 @@ Each Line in the main view represents an account.
 
 **Call state** The state of a call. This is green when a call is connected.
 
-**Make Call** By clicking on the telehone handset icon you can inititate or hang up a call.
+**Make Call** By clicking on the telephone handset icon you can inititate or hang up a call.
 
 **Info** This opens an info window with call statistics if a call is connected.
 
 Make a call
 -----------
+
+A click on the **telephone handset** icon .. image:: images/Telephone-headset.png
+  :width: 10
+  :alt: GUI telepnoe iccon:
+  opens the *make call* dialog:
+
+**Codec** Select a codec from the dropdown. Supported codecs are: ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
+
+**Codec settings** Opens the settings dialog with the specific parameters for the selected codec.
+
+**Number** Enter the SIP number you like to call.
+
+**Call history** the last 10 calls are distplayed here, by clicking on an entry the codecs and its settings are selected.
+
+**Buddies** the configured buddies from :term:`buddies` menu can be used to quick dial your favorite numbers.
 
