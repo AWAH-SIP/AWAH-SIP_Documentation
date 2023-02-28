@@ -53,13 +53,11 @@ Each Line in the main view represents an account.
 Make a call
 -----------
 
-A click on the **telephone handset** icon 
+A click on the **telephone handset** icon opens the *make call* dialog:
 
 .. image:: images/Telephone-headset.png
-  :width: 10
+  :width: 25
   :alt: GUI telepnoe iccon:
-
-opens the *make call* dialog:
 
 **Codec** Select a codec from the dropdown. Supported codecs are: ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
 
