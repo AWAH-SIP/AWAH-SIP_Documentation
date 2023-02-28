@@ -55,8 +55,8 @@ Make a call
 
 A click on the **telephone handset** icon opens the *make call* dialog:
 
-.. image:: images/Telephone-headset.png
-  :width: 25
+.. image:: images/Call_button.png
+  :width: 600
   :alt: GUI telepnoe iccon:
 
 **Codec** Select a codec from the dropdown. Supported codecs are: ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
@@ -67,5 +67,5 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 
 **Call history** the last 10 calls are distplayed here, by clicking on an entry the codecs and its settings are selected.
 
-**Buddies** the configured buddies from :doc:buddies `<AWAH-SIP_GUI_Buddies.rst>` menu can be used to quick dial your favorite numbers.
+**Buddies** the configured buddies from :doc:`buddies<AWAH-SIP_GUI_Buddies.rst>` menu can be used to quick dial your favorite numbers.
 
