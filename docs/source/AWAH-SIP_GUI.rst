@@ -57,7 +57,13 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 
 .. image:: images/Call_button.png
   :width: 600
-  :alt: GUI telepnoe iccon:
+  :alt: GUI telepnoe icon:
+
+  The *make call* windows opens:
+
+  .. image:: images/make_call.png
+  :width: 600
+  :alt: GUI make call:
 
 **Codec:** Select a codec from the dropdown. Supported codecs are: 
             ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
@@ -81,6 +87,13 @@ A click on the **call info** icon opens the *call info* window. Various statisti
 .. image:: images/Call_info.png
   :width: 600
   :alt: GUI telepnoe iccon:
+
+The call info window shows various information about the active call:
+
+.. image:: images/call_statistics.png
+  :width: 300
+  :alt: GUI telepnoe iccon:
+
 
 
 Auto connect
