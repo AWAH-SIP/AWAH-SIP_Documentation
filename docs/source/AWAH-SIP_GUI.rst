@@ -62,12 +62,14 @@ A click on the **telephone handset** icon opens the *make call* dialog:
   :align: center
   :alt: GUI telepnoe icon:
 
+
 The *make call* windows opens:
 
 .. image:: images/make_call.png
   :width: 300
   :align: center
   :alt: GUI make call:
+
 
 **Codec:** Select a codec from the dropdown. Supported codecs are: 
             ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
