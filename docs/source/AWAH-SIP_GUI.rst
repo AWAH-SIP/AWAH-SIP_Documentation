@@ -64,8 +64,8 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 
 The *make call* windows opens:
 
-  .. image:: images/make_call.png
-  :width: 600
+.. image:: images/make_call.png
+  :width: 300
   :align: center
   :alt: GUI make call:
 
