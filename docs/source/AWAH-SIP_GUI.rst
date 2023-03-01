@@ -20,6 +20,7 @@ Starting the GUI
 
 .. image:: images/Connect-dialog.png
   :width: 300
+  :align: center
   :alt: connect dialog
 
 When you start the GUI a connect dialog appears. Enter the IP address of the AWAH-SIP_codec that
@@ -33,6 +34,7 @@ Overview
 
 .. image:: images/GUI-Overview.png
   :width: 600
+  :align: center
   :alt: GUI overwiew
 
 Each line in the main view represents an account.
@@ -57,12 +59,14 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 
 .. image:: images/Call_button.png
   :width: 600
+  :align: center
   :alt: GUI telepnoe icon:
 
-  The *make call* windows opens:
+The *make call* windows opens:
 
   .. image:: images/make_call.png
   :width: 600
+  :align: center
   :alt: GUI make call:
 
 **Codec:** Select a codec from the dropdown. Supported codecs are: 
@@ -86,12 +90,14 @@ A click on the **call info** icon opens the *call info* window. Various statisti
 
 .. image:: images/Call_info.png
   :width: 600
+  :align: center
   :alt: GUI telepnoe iccon:
 
 The call info window shows various information about the active call:
 
 .. image:: images/call_statistics.png
   :width: 300
+  :align: center
   :alt: GUI telepnoe iccon:
 
 
