@@ -23,7 +23,7 @@ Starting the GUI
   :align: center
   :alt: connect dialog
 |
-|
+
 When you start the GUI a connect dialog appears. Enter the IP address of the AWAH-SIP_codec that
 you want to control. If the application is running on the same host 127.0.0.1 can be entered.
 If the connection is successful the Overview screen opens.
@@ -38,7 +38,7 @@ Overview
   :align: center
   :alt: GUI overwiew
 |
-|
+
 Each line in the main view represents an account.
 
 
@@ -64,7 +64,7 @@ A click on the **telephone handset** icon opens the *make call* dialog:
   :align: center
   :alt: GUI telepnoe icon:
 |
-|
+
 The *make call* windows opens:
 
 .. image:: images/make_call.png
@@ -72,7 +72,7 @@ The *make call* windows opens:
   :align: center
   :alt: GUI make call:
 |
-|
+
 **Codec:** Select a codec from the dropdown. Supported codecs are: 
             ``Opus`` ``Speex`` ``iLBC`` ``AMR`` ``Linear`` ``GSM`` ``G722`` ``G711 u-Law`` ``G711 a-Law``
 
@@ -96,6 +96,7 @@ A click on the **call info** icon opens the *call info* window. Various statisti
   :width: 600
   :align: center
   :alt: GUI telepnoe iccon:
+|
 
 The call info window shows various information about the active call:
 
@@ -103,7 +104,7 @@ The call info window shows various information about the active call:
   :width: 300
   :align: center
   :alt: GUI telepnoe iccon:
-
+|
 
 
 Auto connect
