@@ -78,6 +78,12 @@ The *make call* windows opens:
 
 **Codec settings:** Opens the settings dialog with the specific parameters for the selected codec.
 
+.. image:: images/codec_settings.png
+  :width: 300
+  :align: center
+  :alt: codec settings:
+|
+
 **Number:** Enter the SIP number you like to call.
 
 **Call history:** the last 10 calls are displayed here, by clicking on an entry in the table the number, the codec and its settings are selected.
