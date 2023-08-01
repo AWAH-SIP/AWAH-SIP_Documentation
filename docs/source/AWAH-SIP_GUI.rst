@@ -122,7 +122,7 @@ With auto connect you can set up static connection to a SIP contact.
 As soon this contact is online the codec wil automatically establish a call to that contact.
 
 .. image:: images/Autoconnect.png
-  :width: 300
+  :width: 600
   :align: center
   :alt: GUI telepnoe iccon:
 |
