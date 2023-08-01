@@ -62,7 +62,7 @@ A click on the **telephone handset** icon opens the *make call* dialog:
 .. image:: images/Call_button.png
   :width: 600
   :align: center
-  :alt: GUI telepnoe icon:
+  :alt: Gui callbutton
 |
 
 The *make call* windows opens:
@@ -70,7 +70,7 @@ The *make call* windows opens:
 .. image:: images/make_call.png
   :width: 300
   :align: center
-  :alt: GUI make call:
+  :alt: GUI make call
 |
 
 **Codec:** Select a codec from the dropdown. Supported codecs are: 
@@ -101,7 +101,7 @@ A click on the **call info** icon opens the *call info* window. Various statisti
 .. image:: images/Call_info.png
   :width: 600
   :align: center
-  :alt: GUI telepnoe iccon:
+  :alt: GUI call info
 |
 
 The call info window shows various information about the active call:
@@ -109,10 +109,24 @@ The call info window shows various information about the active call:
 .. image:: images/call_statistics.png
   :width: 300
   :align: center
-  :alt: GUI telepnoe iccon:
+  :alt: GUI call statisits:
 |
 
+On the tab ``SDP`` you can inspect the SDP that is recieved from the far end if you are called.
+If you are the caller then the local SDP that is sent out is displayed.
 
 Auto connect
 ------------
+
+With auto connect you can set up static connection to a SIP contact. 
+As soon this contact is online the codec wil automatically establish a call to that contact.
+
+.. image:: images/Autoconnect.png
+  :width: 300
+  :align: center
+  :alt: GUI telepnoe iccon:
+|
+
+The autoconnect field is a shortcut to **enable** or **disable** disable the autoconnect feature.
+To use this you have to define some :ref:`Buddies` first.
 
