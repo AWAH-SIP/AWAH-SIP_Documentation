@@ -56,7 +56,7 @@ SIP settings
   :alt: GUI call statisits:
 |
 
-.. list-table:: global settings
+.. list-table:: SIP settings
    :widths: 200 300 
    :header-rows: 1
 
@@ -113,4 +113,48 @@ Audio settings
   :align: center
   :alt: GUI call statisits:
 |
-SIP settings found here.
+.. list-table:: audio settings
+   :widths: 200 300 
+   :header-rows: 1
+
+   * - Setting
+     - description
+
+   * - echo canceller tail length
+     - Echo canceller tail length, in miliseconds. Setting this to zero will disable echo cancellation.
+
+   * - Jitterbuffer initial prefetch delay
+     - Jitter buffer minimum prefetch delay in msec.
+
+   * - Jitterbuffer max
+     - Set maximum delay that can be accomodated by the jitter buffer msec.
+
+   * - Jitterbuffer prefetch Max
+     - Jitter buffer maximum prefetch delay in msec.
+
+   * - Jitterbuffer prefetch Min
+     - Jitter buffer minimum prefetch delay in msec.
+
+   * - Router clock rate
+     - Sets the clock rate of the audio routing matrix
+
+   * - Router clock source
+     - select from wich audio interface the router schould take the clock, or set to internal clocking if no audio interface is connected.
+
+   * - Sound device clock rate
+     - Sets the clock rate of the selected audio interface
+
+   * - Sound device plackback buffer
+     - sets the playback buffer in milliseconds for the sound device
+
+   * - Sound device record buffer
+     - sets the record buffer in milliseconds for the sound device
+
+
+Codec Priority
+--------------
+
+Set the priority for each available codec. If an incoming call has multiple codecs offered in the SDP the codec with the highest priority will be selected.
+If a codec is set to **0 disabled** a call with this codec will be refused.
+
+
