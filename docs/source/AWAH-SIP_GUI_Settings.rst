@@ -17,14 +17,11 @@ Global settings
 |
 
 .. list-table:: global settings
-   :widths: 200 500 
+   :widths: 200 300 
    :header-rows: 1
 
    * - Setting
      - description
-     
-   * - Account retry interval:
-     - Time in seconds wich the codec waits after a unsuccessful SIP registration
 
    * - Audio frame package time:
      - The internal package time of the audio processing engine
@@ -59,6 +56,54 @@ SIP settings
   :alt: GUI call statisits:
 |
 
+.. list-table:: global settings
+   :widths: 200 300 
+   :header-rows: 1
+
+   * - Setting
+     - description
+
+   * - Account session timer expiration
+     - Default session interval for Session Timer (RFC 4028) extension, in seconds.
+
+   * - ICE
+     - enable or disable Interactive Connectivity Establishment (ICE) rfc5768
+
+   * - ICE Rtcp
+     - enable ore disable RTCP component.
+
+   * - ICE agressive nomination
+     - enable or disable agressive nomination
+    
+   * - ICE always update
+     - Always send re-INVITE/UPDATE after ICE negotiation regardless of whether the default ICE transport address is changed or not. When this is disabled, re-INVITE/UPDATE will be sent only when the default ICE transport address is changed.
+
+   * - ICE max host candidates
+     - Set the maximum number of ICE host candidates.
+
+   * - ICE nominated check delay
+     - For controlling agent if it uses regular nomination, specify the delay (in milliseconds) to perform nominated check
+
+   * - ICE nomination timeout
+     - For a controlled agent, specify how long it wants to wait (in milliseconds) for the controlling agent to complete sending connectivity check
+
+   * - Media config transport port
+     - this sets the UDP port for the media to flow
+    
+   * - NAT hole punching keep alive timer
+     - Set the interval for periodic keep-alive transmission for every account. If this value is zero, keep-alive will be disabled.
+
+   * - auto registration retry upon registration failure
+     - Specify interval of auto registration retry upon registration failure (including caused by transport problem), in second. Set to 0 to disable auto re-registration. Note that if the registration retry occurs because of transport failure, the first retry will be done after **first retry interval** instead.
+
+   * - interval for the first registration retry
+     - This specifies the interval for the first registration retry.
+
+   * - rewrite contact in SIP header
+     - This option is used to update the transport address and the Contact header of REGISTER request. When this option is  enabled, the library will keep track of the public IP address from the response of REGISTER request. Once it detects that the address has changed, it will unregister current Contact, update the Contact with transport address learned from Via header, and register a new Contact to the registrar. This will also update the public name of UDP transport if STUN is configured.
+
+   * - rewrite via in SIP header
+     - This option is used to overwrite the "sent-by" field of the Via header for outgoing messages with the same interface address as the one in the REGISTER request, as long as the request uses the same transport instance as the previous REGISTER request.
 
 Audio settings
 ------------
