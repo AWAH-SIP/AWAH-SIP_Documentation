@@ -33,3 +33,6 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Add/Update "html_theme_options" like this on your conf.py
+html_theme_options = {'body_max_width': '90%'}

@@ -1,11 +1,11 @@
 Settings
 ========
 .. image:: images/GUI-Overview_settings.png
-  :width: 600
+  :width: 500
   :align: center
   :alt: GUI settings:
 |
-All the relevant settings can be accessed by clicking on the **settings** icon.
+All settings can be accessed by clicking on the **settings** icon.
 
 Global settings
 ---------------
