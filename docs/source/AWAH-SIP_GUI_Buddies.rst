@@ -1,6 +1,6 @@
 Buddies
 =======
-
+.. _Buddies:
 
 add Buddy
 ---------

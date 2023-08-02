@@ -4,7 +4,9 @@ Settings
   :width: 500
   :align: center
   :alt: GUI settings:
+
 |
+
 All settings can be accessed by clicking on the **settings** icon.
 
 Global settings
@@ -14,6 +16,7 @@ Global settings
   :width: 300
   :align: center
   :alt: GUI global settings:
+
 |
 
 .. list-table:: global settings
@@ -54,6 +57,7 @@ SIP settings
   :width: 300
   :align: center
   :alt: GUI call statisits:
+
 |
 
 .. list-table:: SIP settings
@@ -106,13 +110,15 @@ SIP settings
      - This option is used to overwrite the "sent-by" field of the Via header for outgoing messages with the same interface address as the one in the REGISTER request, as long as the request uses the same transport instance as the previous REGISTER request.
 
 Audio settings
-------------
+--------------
 
 .. image:: images/audio_settings.png
   :width: 300
   :align: center
   :alt: GUI call statisits:
+
 |
+
 .. list-table:: audio settings
    :widths: 200 300 
    :header-rows: 1
