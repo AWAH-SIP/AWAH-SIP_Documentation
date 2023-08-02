@@ -24,11 +24,12 @@ Add Account
   :align: center
   :alt: GUI add account
 
-|
-
 A new Account can be configured in the **Add Account** window.
 
 |
+
+SIP Account
+***********
 
 .. image:: images/add_account_cred.png
   :width: 300
@@ -56,7 +57,11 @@ A new Account can be configured in the **Add Account** window.
    * - SIP password
      - the password ot the account
 
+
 |
+
+Jitter buffer
+*************
 
 .. image:: images/add_account_jitter.png
   :width: 300
@@ -70,12 +75,13 @@ The adaptive jitter buffer can be configured in the settings_.
 
 |
 
+GPIO
+****
+
 .. image:: images/add_account_GPIO.png
   :width: 300
   :align: center
   :alt: GUI account GPIO
-
-|
 
 When the field GPIO is checked 8 GPI and 8 GPO will be created in the GPIO matrix. With this enabled you can transmit 8 GPI's over SIP. (This is done with DTMF tones)
 See also section routing_ for details of the internal routing matrix.
@@ -88,18 +94,61 @@ See also section routing_ for details of the internal routing matrix.
 
 |
 
+Anouncement player
+******************
+
 .. image:: images/add_account_play.png
   :width: 300
   :align: center
   :alt: GUI account player
 
-|
 
 If the Anouncement player ist enabled the file defined in **file path** is played on each incoming call.
 
 .. warning::
 
    Only 16bit wave files are supported. 24bit files throw an eror in the log file and won't play!
+
+|
+
+Call recorder
+*************
+
+.. image:: images/add_account_rec.png
+  :width: 300
+  :align: center
+  :alt: GUI account recorder
+
+If the Call recorder is enabled each incoming call is recorded. Each recording is stored as a 16bit wave file in te directory defined in **record directory**
+You can choose if you want to record only the incoming audio signal or record a mix of the recieving audio with the local audio (your voice)
+
+With the field record name template you can define in a very flexible way how the individual files schould be named.
+
+.. list-table:: Examples
+   :widths: 200 200 
+   :header-rows: 1
+
+   * - Template
+     - Filename
+
+   * - MyRecording-%Y-%M-%D
+     - MyRedording-2023-05-21.wav
+
+   * - Callfrom-%C
+     - Callfrom-2061921.wav
+
+   * - %A_%Y-%M-%D_%h:%m:%s_from_%C
+     - Accountname_2023-05-21_22:45:23_from_2061921.wav
+
+
+.. note::
+
+   If you enable **Anouncement Player** and **Call Recorder** the file recording starts after the anouncement is finished.
+   Like this you get a fully functinal SIP anwering maschine.
+
+
+
+
 
 Edit Account
 ------------
