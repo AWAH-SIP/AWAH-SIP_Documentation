@@ -164,7 +164,10 @@ add Linux GPIO
 **************
 
 With a linux GPIO device you can access GPIO pins on an embedded board like the Rasperrypi directly. 
-You need to compile the AWAH sip codec with libgpiod_ support enabled that this GPIO device is showing up.
+
+.. note::
+
+ You need to compile the AWAH sip codec with libgpiod_ support enabled that this GPIO device is showing up.
 
 .. _libgpiod: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
 
@@ -188,3 +191,5 @@ If the input is false the specified route is removed.
 
 Remove selected
 ---------------
+
+removes the selected device. For the IO devices there is no editing function you have to remove the device an create a new one to edit it.
