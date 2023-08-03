@@ -117,10 +117,17 @@ The call info window shows various information about the active call:
   :align: center
   :alt: GUI call statisits:
 
-|
+
 
 On the tab ``SDP`` you can inspect the SDP that is recieved from the far end if you are called.
 If you are the caller then the local SDP that is sent out is displayed.
+
+.. image:: images/call_sdp.png
+  :width: 300
+  :align: center
+  :alt: GUI call sdp
+
+|
 
 Auto connect
 ------------

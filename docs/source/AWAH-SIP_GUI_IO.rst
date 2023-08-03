@@ -23,7 +23,7 @@ The configured devices are automatically added to the routing matrix.
 Add sound device
 ----------------
 
-Ther are tree different type of sound devices
+There are tree different types of sound devices
 
 .. list-table:: Sound devices
    :widths: 200 200 
@@ -92,14 +92,99 @@ Add File player
    * - File Path
      - enter the Path to an exising wave file on your disk (only 16bit wave files are supported)
 
-
-
 |
 
 Add GPIO
 --------
+There are six different types of GPIO devices:
+
+.. list-table:: GPIO devices
+   :widths: 200 200 
+   :header-rows: 1
+
+   * - Device type
+     - description
+
+   * - GPIO AND
+     - a logical AND gate
+
+   * - GPIO OR
+     - a logical OR gate
+
+   * - virtual GPIO
+     - a vitual GPIO device that can be set over the Websocket API
+
+   * - Linux GPIOD GPIO
+     - a Linux libgpiod device for accessing GPIO headers
+
+   * - set Audio Crosspoint GPIO
+     - a GPIO decive that can set a crosspoint on the audio matrix
 
 |
+
+add GPIO AND
+************
+
+.. image:: images/add_GPIO_AND.png
+  :width: 300
+  :align: center
+  :alt: IO GPIO And
+
+A logic AND gate. **Inputs** sets the amount of inputs. **Name** the name of the AND Gate.
+If every input of ghe AND gate is true the output gets also true.
+
+|
+
+add GPIO OR
+***********
+
+.. image:: images/add_GPIO_OR.png
+  :width: 300
+  :align: center
+  :alt: IO GPIO OR
+
+A logic OR gate. **Inputs** sets the amount of inputs. **Name** the name of the OR Gate.
+If one of the inputs of ghe OR gate is true the output gets true.
+
+|
+
+add virtual GPIO
+****************
+
+.. image:: images/add_GPIO_virtual.png
+  :width: 300
+  :align: center
+  :alt: IO GPIO virtual
+
+
+A virtual GPIO is just a GPI or GPO represented in the GPIO matrix. The vertual GPIO can be set to true or false over the Websocket API.
+**Inputs** sets the amount of inputs. **Outputs** sets the amount of outputs. **Name** the name of the virtual GPIO.
+
+add Linux GPIO
+**************
+
+With a linux GPIO device you can access GPIO pins on an embedded board like the Rasperrypi directly. 
+You need to compile the AWAH sip codec with libgpiod_ support enabled that this GPIO device is showing up.
+
+.. _libgpiod: https://git.kernel.org/pub/scm/libs/libgpiod/libgpiod.git
+
+|
+
+add Audio crosspoint GPIO
+*************************
+
+.. image:: images/add_GPIO_AudioXP.png
+  :width: 300
+  :align: center
+  :alt: IO AudioXP
+
+If the input of the **Audio crosspoint GPIO device** is true. The **source Port** is routed to the **destination Port** in the audio matrix.
+If the input is false the specified route is removed.
+|
+**Name** the name of the device. **Source Port** the Audio soucre channel that schould be routed. **Destination Port** the audio output that the signal schould be routed.$
+**Level** this defines the level (in dB) of the connection 0 means unity gain. A positive value is a boost of the input signal and a negative value an attenuation. 
+|
+
 
 Remove selected
 ---------------
