@@ -152,3 +152,16 @@ With the field record name template you can define in a very flexible way how th
 
 Edit Account
 ------------
+
+When you click on edit the same window as for adding accounts appears. You can edit each parameter.
+
+. note::
+
+   The password is not shown it is displayed as stars. If you leave this as it is the password remains the same. 
+   If you like to change the password just type the new one in.
+
+
+Delete account
+--------------
+
+just select an account an click delete to delet it and no, there is no undo.
