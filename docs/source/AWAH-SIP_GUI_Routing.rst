@@ -57,19 +57,26 @@ A click on a white square sets a crosspoint and a click on a crosspoint cleas th
 With a right click on a crosspoint you can alter the gain of this connection. A negative value is an attenuation of the signal and a positive value is a signal boost.
 
 .. image:: images/Audio_router_volume.png
-  :width: 150
+  :width: 200
   :align: center
   :alt: GUI router volume
 
 When you need to set multiple crosspoints with a gain other than 0dB you can change the default volume setting at the bottom of the window.
 
 .. image:: images/Audio_router_temporary.png
-  :width: 150
+  :width: 200
   :align: center
   :alt: GUI router temp
 
 By checking the **temporary Route** checkbox each new crosspoint will just be temporary. (indicated with a grey crosspoint)
 A temporary crosspoint is not saved in the configuration. It will be lost after a reboot of the codec.
+
+.. image:: images/custom_label.png
+  :width: 200
+  :align: center
+  :alt: GUI router custom label
+
+With a double click of a name (either input or output) a window opens where you can change the name of a channel.
 
 GPIO routing
 ------------
@@ -78,4 +85,34 @@ GPIO routing
   :align: center
   :alt: GUI router
 
-GPIO routing.
+All GPIO devices can be connectet in the GPIO matrix. A source or a destination that is maked **green** has the state **true** or **hi**.
+
+
+.. list-table:: GPI crosspoints
+   :widths: 200 200 
+   :header-rows: 1
+
+   * - Crosspoint type
+     - description
+
+   * - .. image:: images/GPI_XP_green.png
+        :width: 40
+        :align: center
+        :alt: GUI XP
+     - A green crosspoint without text that indicates a connection.
+
+   * - .. image:: images/GPI_XP_inverted.png
+        :width: 40
+        :align: center
+        :alt: GUI XP gain
+
+     -  A xrosspoint with a **!** is an inverting crosspoint. A **true** on the source will be a **false** on the destinatiln and vice versa.
+
+   * - .. image:: images/GPI_XP_grey.png
+        :width: 40
+        :align: center
+        :alt: GUI XP grey
+     - a gray crosspoint is a temporary crosspoint that is non constistent over a restart of the application.
+
+
+
