@@ -115,4 +115,6 @@ All GPIO devices can be connectet in the GPIO matrix. A source or a destination 
      - a gray crosspoint is a temporary crosspoint that is non constistent over a restart of the application.
 
 
+.. note::
 
+ THe account DTMF GPI devices are only avaliable when they are enabled in the account config. See secction accounts for details.
