@@ -56,5 +56,5 @@ add Buddy
 In the add buddy window you can configure a new buddy. You can choose a custom **Name** for the contact and add the SIP number in the **Number** field.
 You need to specify an account for your buddy. This is neccesary that the application can extend the number to a fully specified SIP URI e.g. sip:123456@voip-provider.example.net
 
-Buddy settings
---------------
+The specified **codec** and its settings are needed for the autoconnect feature as well as default when using the buddy manually with the **make call** button. 
+
